@@ -50,7 +50,7 @@ fn part_one(reports: &Vec<Vec<i32>>) {
 fn part_two(reports: &Vec<Vec<i32>>) {
   let total: Vec<bool> = reports.iter().map(|rep| is_safe(rep, &1)).filter(|res| *res).collect();
 
-  println!("Part 1 total is: {}", total.len());
+  println!("Part 2 total is: {}", total.len());
 }
 
 fn main() {
