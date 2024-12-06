@@ -59,11 +59,6 @@ fn main() {
   let input = fs::read_to_string(file_path)
       .expect("Should have been able to read the file");
 
-  let mut memory: Vec<&str> = Vec::new();
-
-  for line in input.split("\n") {
-    memory.push(line);
-  }
   part_one(&input);
   part_two(&input);
 }
