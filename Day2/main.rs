@@ -1,4 +1,3 @@
-use std::env;
 use std::fs;
 
 fn str_to_int(input: &str) -> i32 {
